@@ -13,7 +13,7 @@ app包含了而且生成、识别、扫描、以及RxSwift的使用
 ``` swift
 var weiNetworkTool = MoyaProvider<NetworkTool>()
 ```
-```
+``` swift
 // MARK: - 第二种，设置了多种功能超时时常、设置统一Token、设置SSL证书、设置当前请求过程等，如果程序对请求有要求，那么就要使用第二种
 // MARK: ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ 第二种方式 ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
 
