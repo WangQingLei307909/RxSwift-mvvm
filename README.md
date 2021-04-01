@@ -5,6 +5,8 @@ app包含了而且生成、识别、扫描、以及RxSwift的使用
 
 对（tableView、CollectionView的使用）加入了大量注释内容，可以更加清晰了解RxSwift + Moya + mvvm的使用。
 
+新增了对应用暗黑模式的简单适配，可以更有效的使用暗黑模式
+
 RxSwift：
 1、Subject
 2、Variable
