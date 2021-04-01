@@ -1,13 +1,11 @@
 # RxSwift-mvvm
-一个基于RxSwift + Moya + mvvm架构的简单App（内容不断在丰富、优化中）
+1、一个基于RxSwift + Moya + mvvm架构的简单App（内容不断在丰富、优化中）
 
-app包含了而且生成、识别、扫描、以及RxSwift的使用
+2、app包含了而且生成、识别、扫描、以及RxSwift的使用
 
-对（tableView、CollectionView的使用）加入了大量注释内容，可以更加清晰了解RxSwift + Moya + mvvm的使用。
+3、对（tableView、CollectionView的使用）加入了大量注释内容，可以更加清晰了解RxSwift + Moya + mvvm的使用。
 
-新增了对应用暗黑模式的简单适配，可以更有效的使用暗黑模式
-
-同时增加了，对网络请求更为复杂的处理，包含 -> API超时时常、设置统一Token、设置SSL证书、设置当前请求过程等
+4、新增了对应用暗黑模式的简单适配，可以更有效的使用暗黑模式。同时增加了，对网络请求更为复杂的处理，包含 -> API超时时常、设置统一Token、设置SSL证书、设置当前请求过程等
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ``` Swift
@@ -118,7 +116,7 @@ var weiNetworkTool = MoyaProvider<NetworkTool>()
 // MARK: -
 ```
 
-RxSwift：
+5、RxSwift：
 1、Subject
 2、Variable
 3、doOn
