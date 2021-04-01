@@ -10,11 +10,13 @@ app包含了而且生成、识别、扫描、以及RxSwift的使用
 同时增加了，对网络请求更为复杂的处理，包含 -> API超时时常、设置统一Token、设置SSL证书、设置当前请求过程等
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 // MARK: - 第一种，直接就是一个请求的作用，其他都是默认设置
+``` swift
 var weiNetworkTool = MoyaProvider<NetworkTool>()
-
+```
+```
 // MARK: - 第二种，设置了多种功能超时时常、设置统一Token、设置SSL证书、设置当前请求过程等，如果程序对请求有要求，那么就要使用第二种
 // MARK: ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ 第二种方式 ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
- 
+
  //把session当参数传进去就行了
  let kProvider = MoyaProvider<NetworkTool>(endpointClosure: myEndpointClosure, requestClosure: requestClosure, session: session, plugins: [networkPlugin], trackInflights: false)
 
@@ -113,7 +115,7 @@ var weiNetworkTool = MoyaProvider<NetworkTool>()
 
 // MARK: ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ 第二种方式 ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️ ⬆️
 // MARK: -
-
+```
 
 RxSwift：
 1、Subject
